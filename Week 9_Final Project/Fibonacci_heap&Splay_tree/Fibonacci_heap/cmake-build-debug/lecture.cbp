@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lecture"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\.ipd\;CMake Files\.ipd\lib\;CMake Files\.ipd\lib\unittest-cpp\;CMake Files\.ipd\lib\graphics\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibonacci_heap_test">
+				<Option output="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/fibonacci_heap_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/src"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci_heap_test"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="fibonacci_heap_test/fast">
+				<Option output="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/fibonacci_heap_test.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/src"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 fibonacci_heap_test/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UnitTest++">
+				<Option output="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/libUnitTest++.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/src"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 UnitTest++"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="UnitTest++/fast">
+				<Option output="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/libUnitTest++.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-D_CRT_SECURE_NO_DEPRECATE"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/src"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 UnitTest++/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/unittest-cpp/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphics">
+				<Option output="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/libgraphics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/src"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 graphics"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="graphics/fast">
+				<Option output="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/libgraphics.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/src"/>
+					<Add directory="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-6.2.0-posix-dwarf-rt_v5-rev1/mingw32/bin/../lib/gcc/i686-w64-mingw32/6.2.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 graphics/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-6~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/cmake-build-debug/.ipd/lib/graphics/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/Color_blender.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/Color_blender.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/color.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/color.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/geometry/affinity.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/geometry/bbox.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/geometry/posn.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/graphics.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/raster/Raster.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/raster/Raster.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/raster/bmp_header.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/raster/bmp_header.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/raster/color32.cpp">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/raster/color32.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/sample.h">
+			<Option target="graphics"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/AssertException.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/AssertException.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/CheckMacros.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/Checks.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/Checks.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/CompositeTestReporter.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/CompositeTestReporter.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/Config.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/CurrentTest.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/CurrentTest.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/DeferredTestReporter.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/DeferredTestReporter.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/DeferredTestResult.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/DeferredTestResult.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/ExceptionMacros.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/ExecuteTest.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/HelperMacros.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/MemoryOutStream.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/MemoryOutStream.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/ReportAssert.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/ReportAssert.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/ReportAssertImpl.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/Test.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/Test.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestDetails.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestDetails.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestList.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestList.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestMacros.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestReporter.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestReporter.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestReporterStdout.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestReporterStdout.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestResults.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestResults.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestRunner.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestRunner.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TestSuite.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TimeConstraint.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TimeConstraint.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/TimeHelpers.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/UnitTest++.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/UnitTestPP.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/Win32/TimeHelpers.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/Win32/TimeHelpers.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/XmlTestReporter.cpp">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/UnitTest++/XmlTestReporter.h">
+			<Option target="UnitTest++"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-main.cpp">
+			<Option target="fibonacci_heap_test"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/src/FibonacciHeap.h">
+			<Option target="fibonacci_heap_test"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/test/fibo_test.cpp">
+			<Option target="fibonacci_heap_test"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.ipd\"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.ipd\lib\unittest-cpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/unittest-cpp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.ipd\lib\unittest-cpp\"/>
+		</Unit>
+		<Unit filename="C:/Users/KU/ClionProjects/ipd/lectures/Fibonacci_heap/.ipd/lib/graphics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\.ipd\lib\graphics\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
